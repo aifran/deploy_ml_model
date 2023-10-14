@@ -150,4 +150,9 @@ Once you have authenticated, click in the `/work` directory and you should see a
 
 To stop the container once you are done with the lab just press `Ctrl + C` twice. This will also delete the container.
  
-### And... that's it! Have fun deploying a Deep Learning model! :)
+### Note: You will need to uninstall protobuf and install a previous version
+
+```bash
+pip uninstall protobuf
+pip install protobuf==3.20
+```
